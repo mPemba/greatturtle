@@ -11,7 +11,7 @@ const MainTitle = styled.h2`
   font-family: 'DankMono';
   font-size: 32px;
   line-height: 36px;
-  margin: 40px 0;
+  margin: 70px 0;
 `
 
 const EntryContainer = styled.div`
@@ -23,7 +23,7 @@ const EntryTitle = styled.h3`
   line-height: 30px;
 `
 
-const EntryDate = styled.div`
+const EntrySubText = styled.div`
   font-size: 12px;
   font-family: DankMonoItalic;
   line-height: 18px;
@@ -42,11 +42,12 @@ const MusicJournal = () => (
       <MainTitle>Music Journal</MainTitle>
       <hr></hr>
         <EntryContainer>
-            <EntryTitle>First Post!</EntryTitle>
-            <EntryDate>Friday October 5th, 2018</EntryDate>
+            <EntryTitle>Bird Hymns</EntryTitle>
+            <EntrySubText>Friday October 5th, 2018</EntrySubText>
             <Entry>We spent this summer of 2018 working on this album for the Morley Nelson Snake River Birds of Prey National Conservation Area's 25 Year Anniversary: Artist-In-Residence Project.</Entry>
             <Entry>We made these songs and we have a video pair for each one. The film will be here soon and you can enjoy the music now. Thanks for listening.</Entry>
             <iframe title="Great Turtle Soundcloud" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/617034336&color=%23466365&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <EntrySubText>The Great Turtle Loves you</EntrySubText>
         </EntryContainer>
       <hr></hr>
   </Layout>
