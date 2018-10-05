@@ -46,6 +46,7 @@ const IndexPage = ({ data }) => (
         <NameLink href="https://soundcloud.com/user-927298991 " target="_blank">SoundCloud</NameLink>
         <NameLink href="https://www.instagram.com/greatturtlemusic/" target="_blank">Instagram</NameLink>
         <NameLink href="https://twitter.com/musicalcolor" target="_blank">Twitter</NameLink>
+        <NameLink href="http://mikeslayer.com/" target="_blank">Michael's website</NameLink>
       </ContactContainer>
     </Description>
   </Layout>
