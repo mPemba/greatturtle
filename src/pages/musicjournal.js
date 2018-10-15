@@ -17,7 +17,7 @@ import bioPhoto from "../img/bioPhoto.jpg"
 const MainTitle = styled.h2`
   color: #2A2D34;
   text-decoration: 'none';
-  font-family: 'DankMono';
+  font-family: 'Crimson Text';
   font-size: 32px;
   line-height: 36px;
   margin: 70px 0;
@@ -28,20 +28,20 @@ const EntryContainer = styled.div`
 `
 
 const EntryTitle = styled.h3`
-  font-family: DankMono;
+  font-family: Crimson Text;
   line-height: 30px;
 `
 
 const EntrySubText = styled.div`
   font-size: 12px;
-  font-family: DankMonoItalic;
+  font-family: Crimson Text;
   line-height: 18px;
   color: rgba(0, 0, 0, .54);
 `
 
 const Entry = styled.p`
   font-size: 14px;
-  font-family: DankMono;
+  font-family: Crimson Text;
   line-height: 20px;
   margin-bottom: 30px;
 `

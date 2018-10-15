@@ -10,7 +10,7 @@ import './layout.css'
 
 const LayoutContainer = styled.div`
   background-color: #F2F4F2;
-  font-family: 'DankMonoItalic'
+  font-family: 'Crimson Text'
   width: 100%;
   height: 100%;
   margin: 0;
@@ -26,7 +26,7 @@ const Footer = styled.div`
   bottom: 0;
   width: 100%;
   clear: both;
-  font-family: 'DankMono'
+  font-family: 'Crimson Text'
 `
 
 const Layout = ({ children }) => (

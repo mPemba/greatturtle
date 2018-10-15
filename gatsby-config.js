@@ -10,8 +10,18 @@ module.exports = {
         path: `${__dirname}/src/img/`
       }
     },
-
-
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Crimson Text']
+        },
+        // custom: {
+        //   families: ['dm'],
+        //   urls: ['src/fonts/DankMono/css/dank-mono.css']
+        // }
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     `gatsby-transformer-sharp`,
