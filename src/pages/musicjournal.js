@@ -62,6 +62,22 @@ const MusicJournal = () => (
   <Layout>
       <MainTitle>Music Journal</MainTitle>
       <hr></hr>
+
+        <EntryContainer>
+            <EntryTitle>Live at Celebration Park</EntryTitle>
+            <EntrySubText>second entry</EntrySubText>
+            <EntrySubText>October 22nd, 2018</EntrySubText>
+            <Entry>
+                On October 12th, 2018 we performed in the museum at Celebration Park. The NCA had all of the artists work on display and then at the end of the night we got to improvise.
+                First we watched Initial Point and then we played a live soundtrack to a version of the film that Elton put together for this show. 
+                The audio recording of the performance is now available on Soundcloud.
+                This was a fun night for us and we're super grateful to everyone who helped make this event happen.
+            </Entry>
+            <iframe title="Great Turtle Celebration Park Show Audio" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/518217141&color=%234f4d4d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        </EntryContainer>
+
+        <Spacer></Spacer>
+
         <EntryContainer>
             <EntryTitle>Bird Hymns</EntryTitle>
             <EntrySubText>first entry</EntrySubText>
@@ -74,7 +90,7 @@ const MusicJournal = () => (
                 We attempted to capture the intensity, the history, and the beauty of this wild place. While nothing will replace actually going to Celebration Park and feeling it for yourself, 
                 we hope you enjoy this music. Thank you for listening.
             </Entry>
-            <iframe title="Great Turtle Soundcloud" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/617034336&color=%23466365&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe title="Great Turtle NCA Soundcloud" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/617034336&color=%23466365&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             
             <Spacer></Spacer>
 
