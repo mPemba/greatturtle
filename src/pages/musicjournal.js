@@ -30,6 +30,7 @@ const EntryContainer = styled.div`
 const EntryTitle = styled.h3`
   font-family: Crimson Text;
   line-height: 30px;
+  margin-bottom: 10px;
 `
 
 const EntrySubText = styled.div`
