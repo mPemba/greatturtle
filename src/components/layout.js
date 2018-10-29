@@ -66,9 +66,9 @@ const Layout = ({ children }) => (
             </div>
         </LayoutContainer>
         <Footer>
-          <p>
+          <div>
             Boise, Idaho
-          </p>
+          </div>
         </Footer>
       </>
     )}

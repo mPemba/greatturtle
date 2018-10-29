@@ -70,14 +70,13 @@ const MusicJournal = () => (
       <hr></hr>
 
         <EntryContainer>
-            <EntryTitle></EntryTitle>
+            <EntryTitle>Flight Path</EntryTitle>
             <EntrySubText>third entry</EntrySubText>
-            <EntrySubText>October 27nd, 2018</EntrySubText>
+            <EntrySubText>October 29th, 2018</EntrySubText>
             <Entry>
                 It's complete. Here is the video album we made for the NCA. You can watch individual tracks or the complete album on the BLM's
                 Youtube channel. All the video work was done by <EntryLink href="http://eltondeleon.com/" target="_blank" without rel="noopener noreferrer">Elton de León Arteaga.
-                </EntryLink> Thank you to everyone who helped us put this thing together. It has been a great adventure getting all this material and then 
-                attempting to create something out of it.
+                </EntryLink> Thank you to everyone who helped us put this thing together. It has been a great adventure.
             </Entry>
             <div className="iframe-container">
               <iframe title="Great Turtle: NCA Video Album" width="560" height="315" src="https://www.youtube.com/embed/4q4qGT1o4o4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
