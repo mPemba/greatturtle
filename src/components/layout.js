@@ -20,7 +20,8 @@ const LayoutContainer = styled.div`
 `
 
 const Footer = styled.div`
-  padding: 30px;
+  padding: 20px;
+  margin: 0;
   background-color: #CED0CE;
   position: relative;
   bottom: 0;
