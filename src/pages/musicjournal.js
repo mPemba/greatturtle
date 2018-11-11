@@ -70,6 +70,23 @@ const MusicJournal = () => (
       <hr></hr>
 
         <EntryContainer>
+            <EntryTitle>VIII of Cups</EntryTitle>
+            <EntrySubText>fourth entry</EntrySubText>
+            <EntrySubText>November 5th, 2018</EntrySubText>
+            <Entry>
+                The last thing we played on the 5th. I had left my Zoom recorder on from the week before, so the batteries were out and the SD card was full.
+                I still haven't looked at how big that last file was, probably over 20GB. Without this we could only pick up what was coming out of the mixer.
+                I took two monitor outs through the interface and this is what we got. We were both playing bass this night. 
+                Casey on the upright and I was playing electric with a big swell reverb. Both instruments through the Little Deformer.
+            </Entry>
+            <div className="iframe-container">
+            <iframe title="VII of cups" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/528189021&color=%234f6365&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+        </EntryContainer>
+
+        <Spacer></Spacer>
+
+        <EntryContainer>
             <EntryTitle>Flight Path</EntryTitle>
             <EntrySubText>third entry</EntrySubText>
             <EntrySubText>October 29th, 2018</EntrySubText>
@@ -90,10 +107,10 @@ const MusicJournal = () => (
             <EntrySubText>second entry</EntrySubText>
             <EntrySubText>October 22nd, 2018</EntrySubText>
             <Entry>
-                On October 12th, 2018 we performed in the museum at Celebration Park. The NCA had all of the artists work on display and then at the end of the night we got to improvise.
-                First we watched Initial Point and then we played a live soundtrack to a version of the film that Elton put together for this show. 
+                On October 12th, 2018 we performed in the museum at Celebration Park. The NCA had all the artist's work on display and then at the end of the night we got to improvise.
+                First we watched Initial Point, and then we played a live soundtrack to a version of the film that Elton put together for this show. 
                 The audio recording of the performance is now available on Soundcloud.
-                This was a fun night for us and we're super grateful to everyone who helped make this event happen.
+                This was a fun night for us, and we're super grateful to everyone who helped make this event happen.
             </Entry>
             <iframe title="Great Turtle Celebration Park Show Audio" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/518217141&color=%234f4d4d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </EntryContainer>
