@@ -70,6 +70,23 @@ const MusicJournal = () => (
       <hr></hr>
 
         <EntryContainer>
+            <EntryTitle>Live at Celebration Video</EntryTitle>
+            <EntrySubText>fifth entry</EntrySubText>
+            <EntrySubText>December 13th, 2018</EntrySubText>
+            <Entry>
+                The year is almost over and we have attended the final events for the NCA's 25 Year Anniversary. It's been an honor
+                to be a part of this. With limited resources we captured as much of the Oct. 12th show as we could. 
+                This video is a collection of that material to show what the event was like. Elton displayed footage of the NCA on 
+                the wall and we improvised alongside it.
+            </Entry>
+            <div className="iframe-container">
+            <iframe title="Live at Celebration Video" width="560" height="315" src="https://www.youtube.com/embed/vvpJFFNdtMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </EntryContainer>
+
+        <Spacer></Spacer>
+
+        <EntryContainer>
             <EntryTitle>VIII of Cups</EntryTitle>
             <EntrySubText>fourth entry</EntrySubText>
             <EntrySubText>November 5th, 2018</EntrySubText>
@@ -80,7 +97,7 @@ const MusicJournal = () => (
                 Casey on the upright and I was playing electric with a big swell reverb. Both instruments through the Little Deformer.
             </Entry>
             <div className="iframe-container">
-            <iframe title="VII of cups" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/528189021&color=%234f6365&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+              <iframe title="VII of cups" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/528189021&color=%234f6365&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             </div>
         </EntryContainer>
 
