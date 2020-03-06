@@ -10,13 +10,13 @@ const HeaderContainer = styled.div`
 const HeaderTitle = styled.h1`
   color: #2A2D34;
   text-decoration: 'none';
-  font-family: 'DankMono';
+  font-family: 'Crimson Text';
 `
 
 const HeaderLinks = styled.div`
   display: 'flex',
   flex-direction: 'row';
-  font-family: 'DankMono';
+  font-family: 'Crimson Text';
 `
 
 const Header = ({ siteTitle }) => (
@@ -27,8 +27,8 @@ const Header = ({ siteTitle }) => (
         </Link>
       </HeaderTitle>
       <HeaderLinks>
-        <Link to="/musicjournal/" style={{ textDecoration: 'none', color: '#2A2D34', fontFamily: 'DankMonoItalic' }}>Music Journal</Link>
-        <Link to="/" style={{ textDecoration: 'none', color: '#2A2D34', marginLeft: 18, fontFamily: 'DankMonoItalic' }}>About</Link>
+        <Link to="/musicjournal/" style={{ textDecoration: 'none', color: '#2A2D34', fontFamily: 'Crimson Text' }}>Music Journal</Link>
+        <Link to="/" style={{ textDecoration: 'none', color: '#2A2D34', marginLeft: 18, fontFamily: 'Crimson Text' }}>About</Link>
       </HeaderLinks>
   </HeaderContainer>
 )
