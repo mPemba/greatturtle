@@ -24,7 +24,7 @@
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
     "serialize-javascript": "^3.0.0",
-    "set-value": "^3.0.1",
+    "set-value": "^4.0.1",
     "styled-components": "^3.4.10",
     "webpack-dev-server": "^3.10.3"
   },
